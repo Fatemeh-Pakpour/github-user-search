@@ -9,7 +9,6 @@ body {
   font: 1em/1.5 'Roboto', sans-serif;
   color: #4c4c4c;
   background: #f6f7f7;
-  padding-top: 145px;
   padding-bottom: 3em;
   margin: 0;
 }
@@ -73,7 +72,12 @@ input:focus {
 }
 .image {
   width : 80%;
+  /* border-radius: 50%; */
+  margin:1rem 2rem ;
 }
 .user-card{
   width:20em;
+}
+.profile{
+  margin-left: 2rem;
 }

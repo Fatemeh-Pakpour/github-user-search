@@ -1,13 +1,20 @@
-import React from 'react';
-// import { Link } from 'react-router-dom';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Card, Container } from "react-bootstrap";
 
-const About = ()=>{
-    return (
-        <div>
-            <h1>Github user search app</h1>
-            <h4>Created by Fatemeh Pakpour</h4>
-        </div>
-
-    );
-}
+const About = () => {
+  return (
+    <Container>
+      <Card className="user-card text-center profile">
+        <Card.Text>Github user search app</Card.Text>
+        <Card.Img
+          variant="top"
+          className="image"
+          src="../../public/fateme-samll.jpg"
+          alt=""
+        />
+      </Card>
+    </Container>
+  );
+};
 export default About;
